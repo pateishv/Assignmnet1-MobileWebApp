@@ -1,0 +1,56 @@
+/* app.component.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #bbfdfd;
+  border-radius: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: black;
+}
+
+.empty-stack-message {
+  color: #b72a2a;
+  margin-top: 20px;
+}
+
+.data-stack {
+  background-color: #92defc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 600px;
+  width: 100px;
+  margin-left: 45%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.push-button, .pop-button {
+  background-color: blue;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 5px;
+  border: 1px;
+  border-radius: 60px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.push-button:hover, .pop-button:hover {
+  background-color: #01a6a6;
+  border: 3px blue;
+  color: white;
+  font-size: 30px;
+  font-family: Algerian;
+}
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stack Demo</title>
+  <link rel="stylesheet" href="app.component.css">
+</head>
+<body>
+<app-header></app-header>
+
+<div class="container">
+  <h2>Live stack-demo structure</h2>
+  <div *ngIf="theStack.length === 0" class="empty-stack-message">Stack is empty</div>
+  <div class="data-stack" *ngFor="let element of theStack.reverse()">{{ element }}</div>
+  <button class="push-button" (click)="addNew()">Push</button>
+  <button class="pop-button" (click)="remove()">Pop</button>
+</div>
+
+<app-footer></app-footer>
+</body>
+</html>
